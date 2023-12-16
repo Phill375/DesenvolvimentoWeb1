@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch</title>
+    <link rel="icon" type="image/png" href="pngwing.com (2).png" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="container-nav">
+            <div class="icones-esquerda">
+
+                <img src="Twitch.tv New.png" alt="Twitch">
+                <h3>Following</h3>
+                <h3>Browse</h3>
+                <button class="botao-more">
+                    <svg class="more-icon" xmlns="http://www.w3.org/2000/svg" height="1em"
+                        viewBox="0 0 128 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z" />
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="input-buscar">
+                <input type="text" placeholder="Search">
+
+                <div class="lupa">
+                    <svg class="icone-lupa" width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px" y="0px"
+                        data-a-selector="tw-core-button-icon" class="ScIconSVG-sc-1q25cff-1 dSicFr">
+                        <g>
+                            <path fill-rule="evenodd"
+                                d="M13.192 14.606a7 7 0 111.414-1.414l3.101 3.1-1.414 1.415-3.1-3.1zM14 9A5 5 0 114 9a5 5 0 0110 0z"
+                                clip-rule="evenodd"></path>
+                        </g>
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="icones-direita">
+
+                <button class="botao-prime-loot">
+                    <svg width="100%" height="100%" viewBox="0 0 20 20" focusable="false" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M13.798 10.456 10 6.657l-3.798 3.799L4 8.805V13h12V8.805l-2.202 1.65zM18 5v8a2 2 0 0 1-2 2H4a2.002 2.002 0 0 1-2-2V5l4 3 4-4 4 4 4-3z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+
+                    <div class="notificacao">
+                        <p>56</p>
+                    </div>
+                </button>
+
+                <button class="botao-notificacao">
+                    <svg width="100%" height="100%" viewBox="0 0 20 20" focusable="false" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M4 3h12l2 4v10H2V7l2-4zm.236 4H8v1a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V7h3.764l-1-2H5.236l-1 2zM16 9h-2.17A3.001 3.001 0 0 1 11 11H9a3.001 3.001 0 0 1-2.83-2H4v6h12V9z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+
+                <button class="botao-whispers">
+                    <svg width="100%" height="100%" viewBox="0 0 20 20" focusable="false" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M7.828 13 10 15.172 12.172 13H15V5H5v8h2.828zM10 18l-3-3H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2l-3 3z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+
+                <button class="botao-bits">
+                    <svg width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" aria-hidden="true"
+                        focusable="false" class="ScIconSVG-sc-1q25cff-1 dSicFr">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3 12l7-10 7 10-7 6-7-6zm2.678-.338L10 5.487l4.322 6.173-.85.728L10 11l-3.473 1.39-.849-.729z">
+                        </path>
+                    </svg>
+                </button>
+
+                <button class="botao-free-ad">
+                    <svg width="100%" height="100%" viewBox="0 0 20 20" focusable="false" aria-hidden="true">
+                        <path
+                            d="M10.114 9.622 11 7 7.175 9.323a.382.382 0 0 0 .013.65l.698.405L7 13l3.825-2.323a.382.382 0 0 0-.012-.65l-.699-.405z">
+                        </path>
+                        <path fill-rule="evenodd" d="M18 7h-2V4H2v12h14v-3h2V7zm-4-1v3h2v2h-2v3H4V6h10z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <p>Get Ad-Free</p>
+                </button>
+
+                <div class="foto-perfil">
+                    <img src="cj.jpg" alt="foto-peril">
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="container-side-bar">
+
+        <div class="for-you">
+            <h1>For You</h1>
+            <button class="botao-collapse">
+                <svg width="100%" height="100%" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" aria-hidden="true"
+                    focusable="false" class="ScIconSVG-sc-1q25cff-1 dSicFr">
+                    <g>
+                        <path d="M16 16V4h2v12h-2zM6 9l2.501-2.5-1.5-1.5-5 5 5 5 1.5-1.5-2.5-2.5h8V9H6z"></path>
+                    </g>
+                </svg>
+            </button>
+        </div>
+
+        <div class="container-followed-channels">
+
+            <div class="followed-channels">
+                <h2>FOLLOWED CHANNELS</h2>
+                <svg width="2rem" height="2rem" viewBox="0 0 20 20">
+                    <path
+                        d="M11 6 7 2 3 6l1.5 1.5L6 6v6h2V6l1.5 1.5L11 6Zm6 8-4 4-4-4 1.5-1.5L12 14V8h2v6l1.5-1.5L17 14Z">
+                    </path>
+                </svg>
+            </div>
+
+            <div class="container-canal-1">
+
+                <div class="imagem-canal-1">
+                    <img alt="blackoutz"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/a2e6baca-7218-4c55-b390-12bfaf3ddd9a-profile_image-70x70.png">
+                </div>
+                <div class="info-canal-1">
+                    <h1>blackoutz</h1>
+                    <h4>Fortnite</h4>
+                </div>
+
+                <div class="view">
+                    <div class="circulo"></div>
+                    <p>2.2K</p>
+                </div>
+
+            </div>
+
+            <div class="container-canal-2">
+
+                <div class="imagem-canal-2">
+                    <img alt="alanzoka"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/64d44235-1dee-4bca-95da-bee1ee96eea3-profile_image-150x150.png">
+                </div>
+
+                <div class="info-canal-2">
+                    <h1>alanzoka</h1>
+                    <h4>Just Chatting</h4>
+                </div>
+
+
+                <div class="view-canal-2">
+                    <div class="circulo"></div>
+                    <p>9.5K</p>
+                </div>
+            </div>
+
+
+            <div class="container-canal-3">
+
+                <div class="imagem-canal-3">
+                    <img alt="suetam1v4"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/0c03212e-305d-4a1b-8c0a-688190002452-profile_image-150x150.png">
+                </div>
+
+                <div class="info-canal-3">
+                    <h1>suetam1v4</h1>
+                    <h4>Fortnite</h4>
+                </div>
+
+                <div class="view-canal-3">
+                    <div class="circulo"></div>
+                    <p>2K</p>
+                </div>
+            </div>
+
+            <div class="container-canal-4">
+                <div class="imagem-canal-4">
+                    <img alt="loud_coringa"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/c07acddc-1e1b-479f-97c4-09636f80e857-profile_image-150x150.png">
+                </div>
+
+                <div class="info-canal-4">
+                    <h1>loud_coringa</h1>
+                    <h4>Valorant</h4>
+                </div>
+
+                <div class="view-canal-4">
+                    <div class="circulo"></div>
+                    <p>7.9K</p>
+                </div>
+
+            </div>
+
+            <div class="texto-show-more">
+                <p>Show More</p>
+            </div>
+
+
+        </div>
+
+        <div class="container-recommended-channels">
+
+            <div class="recommended-channels">
+                <h2>RECOMMENDED CHANNELS</h2>
+            </div>
+
+            <div class="container-canal-1-recommended">
+
+                <div class="imagem-canal-1-recommended">
+                    <img alt="frttt"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/73ea473f-fd04-4669-93eb-af6db3cc5af4-profile_image-150x150.png">
+                </div>
+                <div class="info-canal-1-recommended">
+                    <h1>frttt</h1>
+                    <h4>Valorant</h4>
+                </div>
+
+                <div class="view-canal-1-recommended">
+                    <div class="circulo"></div>
+                    <p>1.6K</p>
+                </div>
+
+            </div>
+
+            <div class="container-canal-2-recommended">
+
+                <div class="imagem-canal-2-recommended">
+                    <img alt="casimito"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-150x150.png">
+                </div>
+
+                <div class="info-canal-2-recommended">
+                    <h1>casimito</h1>
+                    <h4>Just Chatting</h4>
+                </div>
+
+
+                <div class="view-canal-2-recommended">
+                    <div class="circulo"></div>
+                    <p>9.5K</p>
+                </div>
+            </div>
+
+            <div class="container-canal-3-recommended">
+
+                <div class="imagem-canal-3-recommended">
+                    <img alt="Firewall154"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/754c8bd2-4230-4189-a178-a0f552accedb-profile_image-150x150.png">
+                </div>
+
+                <div class="info-canal-3-recommended">
+                    <h1>firewall154</h1>
+                    <h4>Rocket League</h4>
+                </div>
+
+
+                <div class="view-canal-3-recommended">
+                    <div class="circulo"></div>
+                    <p>457</p>
+                </div>
+            </div>
+
+            <div class="container-canal-4-recommended">
+
+                <div class="imagem-canal-4-recommended">
+                    <img alt="Podpah"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/2391117a-9ebe-4acd-98d6-f1bcacfe6a16-profile_image-70x70.png">
+                </div>
+
+                <div class="info-canal-4-recommended">
+                    <h1>Podpah</h1>
+                    <h4>Podcast</h4>
+                </div>
+
+
+                <div class="view-canal-4-recommended">
+                    <div class="circulo"></div>
+                    <p>8.2K</p>
+                </div>
+            </div>
+
+            <div class="container-canal-5-recommended">
+
+                <div class="imagem-canal-5-recommended">
+                    <img alt="Ninja"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/87a9b094-8e60-44a3-b79b-8e676494ba9d-profile_image-70x70.png">
+                </div>
+
+                <div class="info-canal-5-recommended">
+                    <h1>Ninja</h1>
+                    <h4>Fortnite</h4>
+                </div>
+
+
+                <div class="view-canal-5-recommended">
+                    <div class="circulo"></div>
+                    <p>12.1K</p>
+                </div>
+            </div>
+
+            <div class="container-canal-6-recommended">
+
+                <div class="imagem-canal-6-recommended">
+                    <img alt="strendd"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/9b91f419-1c56-4abc-a492-7baa91f958f5-profile_image-70x70.png">
+                </div>
+
+                <div class="info-canal-6-recommended">
+                    <h1>strendd</h1>
+                    <h4>Fortnite</h4>
+                </div>
+
+
+                <div class="view-canal-6-recommended">
+                    <div class="circulo"></div>
+                    <p>148</p>
+                </div>
+            </div>
+
+
+            <div class="container-canal-7-recommended">
+
+                <div class="imagem-canal-7-recommended">
+                    <img alt="aspaszin"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/56adcee0-86f1-4ade-bcd9-8d9bde1c6670-profile_image-150x150.png">
+                </div>
+
+                <div class="info-canal-7-recommended">
+                    <h1>aspazin</h1>
+                    <h4>Valorant</h4>
+                </div>
+
+
+                <div class="view-canal-7-recommended">
+                    <div class="circulo"></div>
+                    <p>2.1K</p>
+                </div>
+            </div>
+
+            <div class="container-canal-8-recommended">
+
+                <div class="imagem-canal-8-recommended">
+                    <img alt="Saadhak"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/d649d28a-98ea-407e-a973-96f39a03bbb5-profile_image-150x150.png">
+                </div>
+
+                <div class="info-canal-8-recommended">
+                    <h1>saadhak</h1>
+                    <h4>Valorant</h4>
+                </div>
+
+
+                <div class="view-canal-8-recommended">
+                    <div class="circulo"></div>
+                    <p>763</p>
+                </div>
+            </div>
+
+            <div class="texto-show-less">
+                <p>Show Less</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <main class="container-live-channels">
+
+        <div class="texto-live-channels">
+            <h1><span>Live channels</span> we think you'll like</h1>
+        </div>
+
+        <div class="live-canal-1">
+
+
+            <img class="imagem-tela-canal-1"
+                alt="(RERUN) DUO CASH CUP w/ @teuzzfn 🏆 | (JOGUEM MEU MAPA 0920-6449-3140) - !mapa | Use Code ❝ PULGABOY ❞ #ad | !pix"
+                src="https://static-cdn.jtvnw.net/previews-ttv/live_user_pulgaboy-440x248.jpg">
+
+
+            <div class="texto-live">
+                <h2>LIVE</h2>
+            </div>
+
+            <div class="text-viewers">
+                <h3>240 viewers</h3>
+            </div>
+
+            <div class="info-esquerda-canal-live-channels">
+                <div class="foto-perfil-1-live-channels">
+                    <img alt="pulgaboy"
+                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/77589615-7cb0-4179-a1b9-85e2c6850073-profile_image-50x50.png">
+                </div>
+            </div>
+
+            <div class="info-canal-direita-live-channels">
+
+                <div class="titulo-canal-1">
+                    <h2>(RERUN) DUO CASH CUP FINALS</h2>
+
+                    <button>
+                        <svg class="more-icon" xmlns="http://www.w3.org/2000/svg" height="1em"
+                            viewBox="0 0 128 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z" />
+                        </svg>
+                    </button>
+
+                </div>
+
+                <div class="nome-canal-1">
+                    <h4>pulgaboy</h4>
+                </div>
+
+                <div class="categoria-canal-1">
+                    <p>Fortnite</p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>
