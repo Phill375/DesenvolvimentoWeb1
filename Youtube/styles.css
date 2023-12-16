@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.container {
+
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    /*border: 1px solid black;*/
+
+}
+
+header {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+
+}
+
+.icone-youtube {
+
+    fill: red;
+    height: 45px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.tela {
+
+    position: relative;
+    margin-top: -10px;
+    margin: 0 auto;
+    width: 600px;
+    height: 250px;
+    background-color: black;
+    border-bottom: 3px solid red;
+    border-radius: 5px;
+
+}
+
+.chromecast,
+.legenda,
+.engrenagem {
+
+    height: 20px;
+    fill: white;
+
+}
+
+.icones-superior {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    position: absolute;
+    top: 15px;
+    right: 12px;
+
+}
+
+.icone-voltar,
+.icone-play,
+.icone-avancar {
+
+    fill: white;
+    height: 25px;
+
+}
+
+.icone-expandir {
+    height: 22px;
+    width: 22px;
+    fill: white;
+}
+
+.icone-play {
+    height: 32px;
+}
+
+.icones-centro {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 106px;
+    left: 250px;
+}
+
+.icone-inferior {
+
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+
+}
+.tela .icone-inferior button  {
+    background-color: transparent;
+    border-radius: 100%;
+    border: none;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tela .icone-inferior button:hover {
+    background-color: rgb(170, 170, 170);
+    cursor: pointer;
+}
+
+
+.tela .icones-centro button  {
+    background-color: transparent;
+    border-radius: 100%;
+    border: none;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tela .icones-centro button:hover {
+    cursor: pointer;
+    background-color: rgb(170, 170, 170);
+}
+
+.tela .icones-superior button  {
+    background-color: transparent;
+    border-radius: 100%;
+    border: none;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tela .icones-superior button:hover {
+    background-color: rgb(170, 170, 170);
+    cursor: pointer;
+}
+
+.info-video {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.botao-like {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    height: 40px;
+    width: 85px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    fill: white;
+    transition: 0.2s ease-in-out;
+}
+
+.botao-like:hover {
+    cursor: pointer;
+    background-color: rgb(51, 48, 48);
+    transition: 0.2s ease-in-out;
+}
+
+
+.botao-like:active {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.icone-like:active {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+
+.icone-like {
+    height: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+p:active {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+.acoes {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.tela:hover .acoes {
+    display: flex;
+}
+
+.icones-centro > button:nth-child(2) {
+    height: 40px;
+    width: 40px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
