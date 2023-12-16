@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&family=Poppins:wght@200;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&display=swap');
+
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+
+    height: 700px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    /*border: 1px solid black;*/
+
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.start {
+    position: relative;
+    top: -30px;
+    padding-bottom: 10px;
+    color: #6e6c6c;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+.sign-up {
+
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.2s ease-in-out;
+
+}
+
+button:hover {
+    transition: 0.2s ease-in-out;
+    border: 1px solid #222121;
+    cursor: pointer;
+
+}
+
+.botao-sign-up {
+
+    height: 50px;
+    width: 450px;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+
+
+
+}
+
+
+.img-google {
+
+    height: 40px;
+
+
+}
+
+.img-apple {
+
+    height: 28px;
+
+}
+
+.divisoria {
+    position: relative;
+    margin-top: 22px;
+}
+
+.or {
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    right: 50%;
+    top: -27px;
+    background-color: white;
+    color: #666262;
+}
+
+hr {
+    border: 1px solid rgb(204, 204, 204);
+    transition: 0.2s ease-in-out;
+}
+
+hr:hover {
+    transition: 0.2s ease-in-out;
+    border: 1px solid rgb(54, 54, 54);
+}
+
+.container-login {
+    margin-top: 20px;
+    height: 180px;
+    width: 450px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    /*border: 1px solid black; */
+}
+
+
+.email {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.senha {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+input {
+
+    height: 40px;
+    width: 445px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(139, 139, 139);
+    transition: 0.2s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+input:hover {
+    transition: 0.2s ease-in-out;
+    border: 1px solid #222121;
+}
+
+::-webkit-input-placeholder {
+
+    color: rgb(112, 109, 109);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+
+}
+
+.aviso {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #222121;
+    margin-top: -6px;
+}
+
+
+.div-botao-create-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.botao-create-account {
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 18, 18);
+    color: white;
+    margin-top: 50px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    
+
+}
+
+
+.texto-final {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(44, 43, 43);
+    font-weight: 600;
+    font-size: 15px;
+
+
+
+}
+
+span {
+    color: black;
+    font-size: 16px;
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+}
+
+span:hover {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-size: 17px;
+}
